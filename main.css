@@ -1,0 +1,141 @@
+body {
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    background-image: url(image/bg-gtm-2020.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.container {
+    padding: 5em;
+    background-color: rgb(12, 11, 11);
+    width: 30%;
+    float: left;
+}
+
+.main {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.img> img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.form form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    
+}
+
+hr {
+    margin-right: 20%;
+    
+}
+
+.username>label,
+.pass>label {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.username>input,
+.pass>input {
+    /* display: flex; */
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 70%;
+    padding: 10px;
+    
+}
+
+.btn button{
+    background-color:rgb(75, 143, 221);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.links>a{
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+    color: rgb(75, 143, 221);
+    text-decoration: none;
+}
+
+button {
+    background-color:gray;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer>p {
+    color: white;
+    font-size: 12px;
+    margin-top: 10em;
+}
+
+.terms>a{
+    color: white;
+    font-size: 12px;
+}
+
+span{
+    color:white;
+}
+
+.aside {
+    width: 50%;
+    float: right;
+    margin-top: 20%;
+    
+}
+
+h1 {
+    color: white;
+}
+
+.but button {
+    background: linear-gradient( rgb(235, 108, 4), rgb(245, 28, 64), rgb(235, 108, 4));
+    width: 30%;
+}
+
+.build>img{
+    float: right;
+    margin-top: 800px;
+    /* margin-left: 10em; */
+    width: 100px;
+}
+
+@media only screen and (medium-width: 200px) {
+    .main {
+        /* display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center; */
+        background-color: yellow;
+    }
+}

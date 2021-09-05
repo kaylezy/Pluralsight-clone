@@ -8,17 +8,19 @@ body {
 }
 
 .container {
-    padding: 5em;
+    padding: 83px;
     background-color: rgb(12, 11, 11);
     width: 30%;
     float: left;
 }
 
 .main {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
     text-align: center;
+   
 }
 
 .img> img {
@@ -38,28 +40,27 @@ body {
 }
 
 hr {
-    margin-right: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
     
 }
 
 .username>label,
 .pass>label {
     display: flex;
-    align-items: center;
     color: white;
     margin-bottom: 10px;
     margin-top: 10px;
-    text-align: left;
+    margin-left: 60px;
 }
 
 .username>input,
 .pass>input {
-    /* display: flex; */
     align-items: center;
     color: white;
     border: none;
     border-radius: 2px;
-    width: 70%;
+    width: 76%;
     padding: 10px;
     
 }
@@ -107,15 +108,28 @@ span{
     color:white;
 }
 
+span>svg {
+    width: 5%;
+    margin-left: -50px;
+    margin-top: 90px;
+}
+
 .aside {
-    width: 50%;
+    width: 60%;
     float: right;
-    margin-top: 20%;
+    margin-top: 15%;
     
 }
 
 h1 {
+    font-size: 50px;
     color: white;
+    margin-left: 40px;
+}
+
+.gradient {
+    margin-top: -100px;
+    
 }
 
 .but button {
@@ -125,8 +139,7 @@ h1 {
 
 .build>img{
     float: right;
-    margin-top: 800px;
-    /* margin-left: 10em; */
+    margin-top: 300px;
     width: 100px;
 }
 
